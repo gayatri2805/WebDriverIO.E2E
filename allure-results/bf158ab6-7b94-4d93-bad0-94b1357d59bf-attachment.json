@@ -1,0 +1,39 @@
+{
+  "id": {
+    "sessionId": "e797b307e6cb633a0ef33db15d07d19a",
+    "elementId": "35545325-9f10-4c16-be74-b45af6bfce23",
+    "element-6066-11e4-a52e-4f735466cecf": "35545325-9f10-4c16-be74-b45af6bfce23",
+    "selector": "//iframe[@class='demo-frame lazyloaded'][1]",
+    "parent": {
+      "sessionId": "e797b307e6cb633a0ef33db15d07d19a",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "108.0.5359.126",
+        "chrome": {
+          "chromedriverVersion": "108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})",
+          "userDataDir": "C:\\Users\\GASURYAW\\AppData\\Local\\Temp\\scoped_dir18676_1298098236"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:64271"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+      }
+    },
+    "isReactElement": false
+  }
+}

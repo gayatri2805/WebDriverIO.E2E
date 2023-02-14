@@ -1,0 +1,192 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675075862278' stop='1675075870213'>
+    <name> DropDown</name>
+    <title> DropDown</title>
+    <test-cases>
+        <test-case start='1675075862279' status='pending' stop='1675075862279'>
+            <name>Test1</name>
+            <title>Test1</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675075862279' status='pending' stop='1675075862279'>
+            <name>Test2</name>
+            <title>Test2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675075862279' status='pending' stop='1675075862279'>
+            <name>Test3</name>
+            <title>Test3</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675075862280' status='pending' stop='1675075862280'>
+            <name>Test4</name>
+            <title>Test4</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675075862280' status='pending' stop='1675075862280'>
+            <name>Test5</name>
+            <title>Test5</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675075862280' status='pending' stop='1675075862280'>
+            <name>Test6</name>
+            <title>Test6</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675075862280' status='pending' stop='1675075862280'>
+            <name>Test7</name>
+            <title>Test7</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675075862280' status='pending' stop='1675075862280'>
+            <name>Test8</name>
+            <title>Test8</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1675075862280' status='broken' stop='1675075870212'>
+            <name>Test9</name>
+            <title>Test9</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.120'/>
+            </parameters>
+            <steps>
+                <step start='1675075862282' status='passed' stop='1675075869731'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='68b49c8e-91e3-451a-981b-69df776db7aa-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps>
+                        <step start='1675075862284' status='passed' stop='1675075862504'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='4f82fa04-c619-43ac-8ac0-1beb306bcf43-attachment.json' type='application/json' size='64'/>
+                                <attachment title='Response' source='a38ec2b0-691d-4f00-827f-ecf041a5711c-attachment.json' type='application/json' size='945'/>
+                            </attachments>
+                            <steps>
+                                <step start='1675075862290' status='passed' stop='1675075862440'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='91e103c7-9630-49e4-8e7c-b45933c371ac-attachment.json' type='application/json' size='60'/>
+                                        <attachment title='Response' source='b90971cf-b0be-4f28-b8c8-82816968720e-attachment.json' type='application/json' size='58'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1675075862532' status='passed' stop='1675075869716'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='6f9a32d4-fa22-49a7-9098-11d2556d0973-attachment.json' type='application/json' size='64'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675075869734' status='passed' stop='1675075869756'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1c1d80fa-6ee6-4ee0-b759-b42d9adaa9b8-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='df88a9ce-853d-4ba9-aa70-97d6a2a56dd9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675075869759' status='passed' stop='1675075869892'>
+                    <name>POST /session/:sessionId/element/65fb67af-f5bf-4d37-b8ca-ed7aefe5f6fc/click</name>
+                    <title>POST /session/:sessionId/element/65fb67af-f5bf-4d37-b8ca-ed7aefe5f6fc/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1675075869892' status='passed' stop='1675075869914'>
+                    <name>POST /session/:sessionId/element/65fb67af-f5bf-4d37-b8ca-ed7aefe5f6fc/element</name>
+                    <title>POST /session/:sessionId/element/65fb67af-f5bf-4d37-b8ca-ed7aefe5f6fc/element</title>
+                    <attachments>
+                        <attachment title='Request' source='34461e65-53de-4cd5-a4ef-2b7eed55a199-attachment.json' type='application/json' size='214'/>
+                        <attachment title='Response' source='db6dde1a-0a30-4afd-a1cb-381de3745834-attachment.json' type='application/json' size='1151'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675075869926' status='passed' stop='1675075870211'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f253650f-4968-45a8-bfd0-2b659a3cad77-attachment.png' type='image/png' size='138406'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Option with text "this month" not found.</message>
+                <stack-trace>Error: Option with text "this month" not found.
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Context.&lt;anonymous> (file:///C:/Webdriverio/MochaPract/test/specs/DropDown.ts:148:1)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1674625917641' stop='1674625942834'>
+    <name> DropDown</name>
+    <title> DropDown</title>
+    <test-cases>
+        <test-case start='1674625917642' status='pending' stop='1674625917642'>
+            <name>Test1</name>
+            <title>Test1</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1674625917642' status='pending' stop='1674625917642'>
+            <name>Test2</name>
+            <title>Test2</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1674625917642' status='broken' stop='1674625942833'>
+            <name>Test3</name>
+            <title>Test3</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.75'/>
+            </parameters>
+            <steps>
+                <step start='1674625917645' status='passed' stop='1674625942670'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='252fd5af-e9a2-4cec-bdff-42dc22cf5721-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps>
+                        <step start='1674625917649' status='passed' stop='1674625918021'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='3d115140-cf5d-4c93-a4cc-5276aa7e45d1-attachment.json' type='application/json' size='104'/>
+                                <attachment title='Response' source='5d8cbcac-dc52-40b0-9072-681b9f259fb6-attachment.json' type='application/json' size='984'/>
+                            </attachments>
+                            <steps>
+                                <step start='1674625917663' status='passed' stop='1674625917868'>
+                                    <name>POST /session/:sessionId/url</name>
+                                    <title>POST /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Request' source='dee7c262-29e6-4a64-93be-a0f9199eccbc-attachment.json' type='application/json' size='60'/>
+                                        <attachment title='Response' source='547c1fce-d93e-40c1-8548-8b4af555b61a-attachment.json' type='application/json' size='58'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1674625918059' status='passed' stop='1674625942645'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='ac8c9d02-5344-4bf1-8995-feb3b178894c-attachment.json' type='application/json' size='104'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1674625942679' status='passed' stop='1674625942831'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5942464b-f963-4ec0-9f47-00b4f92a5f51-attachment.png' type='image/png' size='106016'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//div[@class='ui fluid dropdown selection multiple active visible']" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//div[@class='ui fluid dropdown selection multiple active visible']" because element wasn't found
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Context.&lt;anonymous> (file:///C:/Webdriverio/MochaPract/test/specs/DropDown.ts:39:4)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1674625942833' status='pending' stop='1674625942833'>
+            <name>Test4</name>
+            <title>Test4</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

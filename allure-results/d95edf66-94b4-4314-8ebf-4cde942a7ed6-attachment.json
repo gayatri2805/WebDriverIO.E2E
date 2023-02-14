@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"// div[@class=\"ui fluid selection dropdown\"]\"}\n  (Session info: chrome=109.0.5414.75)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x00DAF243]\n\t(No symbol) [0x00D37FD1]\n\t(No symbol) [0x00C2D04D]\n\t(No symbol) [0x00C5C0B0]\n\t(No symbol) [0x00C5C22B]\n\t(No symbol) [0x00C8E612]\n\t(No symbol) [0x00C785D4]\n\t(No symbol) [0x00C8C9EB]\n\t(No symbol) [0x00C78386]\n\t(No symbol) [0x00C5163C]\n\t(No symbol) [0x00C5269D]\n\tGetHandleVerifier [0x01049A22+2655074]\n\tGetHandleVerifier [0x0103CA24+2601828]\n\tGetHandleVerifier [0x00E58C0A+619850]\n\tGetHandleVerifier [0x00E57830+614768]\n\t(No symbol) [0x00D405FC]\n\t(No symbol) [0x00D45968]\n\t(No symbol) [0x00D45A55]\n\t(No symbol) [0x00D5051B]\n\tBaseThreadInitThunk [0x75DE6BD9+25]\n\tRtlGetFullPathName_UEx [0x773A8FD2+1218]\n\tRtlGetFullPathName_UEx [0x773A8F9D+1165]\n"
+}

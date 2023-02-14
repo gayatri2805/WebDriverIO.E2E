@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"./option[normalize-space(@item) = \"matt\"]|./optgroup/option[normalize-space(@item) = \"matt\"]\"}\n  (Session info: chrome=109.0.5414.75)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x0113F243]\n\t(No symbol) [0x010C7FD1]\n\t(No symbol) [0x00FBD04D]\n\t(No symbol) [0x00FEC0B0]\n\t(No symbol) [0x00FEC22B]\n\t(No symbol) [0x00FE2CA1]\n\t(No symbol) [0x010085D4]\n\t(No symbol) [0x00FE2BFF]\n\t(No symbol) [0x01008804]\n\t(No symbol) [0x0101C9EB]\n\t(No symbol) [0x01008386]\n\t(No symbol) [0x00FE163C]\n\t(No symbol) [0x00FE269D]\n\tGetHandleVerifier [0x013D9A22+2655074]\n\tGetHandleVerifier [0x013CCA24+2601828]\n\tGetHandleVerifier [0x011E8C0A+619850]\n\tGetHandleVerifier [0x011E7830+614768]\n\t(No symbol) [0x010D05FC]\n\t(No symbol) [0x010D5968]\n\t(No symbol) [0x010D5A55]\n\t(No symbol) [0x010E051B]\n\tBaseThreadInitThunk [0x75DE6BD9+25]\n\tRtlGetFullPathName_UEx [0x773A8FD2+1218]\n\tRtlGetFullPathName_UEx [0x773A8F9D+1165]\n"
+}

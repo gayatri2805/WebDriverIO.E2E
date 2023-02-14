@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673602713270' stop='1673602714391'>
+    <name>Sauce Demo website</name>
+    <title>Sauce Demo website</title>
+    <test-cases>
+        <test-case start='1673602713271' status='broken' stop='1673602714389'>
+            <name>Test multiple elements add to cart details</name>
+            <title>Test multiple elements add to cart details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.126'/>
+            </parameters>
+            <steps>
+                <step start='1673602713274' status='passed' stop='1673602713916'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='79973e7d-4562-405a-b01b-36fe4b035839-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673602713958' status='broken' stop='1673602714388'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5dbce487-e449-44d7-84ac-bbebcf8488d5-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps>
+                        <step start='1673602714030' status='passed' stop='1673602714124'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='851c947b-bb7c-4e31-9845-6847344ebb8f-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1673602714143' status='passed' stop='1673602714386'>
+                            <name>POST /session/:sessionId/element/938b9616-5f4e-4f11-bf3b-f1293ed25978/clear</name>
+                            <title>POST /session/:sessionId/element/938b9616-5f4e-4f11-bf3b-f1293ed25978/clear</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='a0bb6a93-78bd-4c6f-bf6b-0ab1723bb84e-attachment.png' type='image/png' size='98059'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Maximum call stack size exceeded</message>
+                <stack-trace>RangeError: Maximum call stack size exceeded
+                    at sauceDemoProductPage.waitUntilLogoDisplayed (file:///C:/Webdriverio/MochaPract/test/pageobjects/SauceDemoProduct.page.ts:6:40)
+                    at sauceDemoProductPage.waitUntilLogoDisplayed (file:///C:/Webdriverio/MochaPract/test/pageobjects/SauceDemoProduct.page.ts:7:20)
+                    at sauceDemoProductPage.waitUntilLogoDisplayed (file:///C:/Webdriverio/MochaPract/test/pageobjects/SauceDemoProduct.page.ts:7:20)
+                    at sauceDemoProductPage.waitUntilLogoDisplayed (file:///C:/Webdriverio/MochaPract/test/pageobjects/SauceDemoProduct.page.ts:7:20)
+                    at sauceDemoProductPage.waitUntilLogoDisplayed (file:///C:/Webdriverio/MochaPract/test/pageobjects/SauceDemoProduct.page.ts:7:20)
+                    at sauceDemoProductPage.waitUntilLogoDisplayed (file:///C:/Webdriverio/MochaPract/test/pageobjects/SauceDemoProduct.page.ts:7:20)
+                    at sauceDemoProductPage.waitUntilLogoDisplayed (file:///C:/Webdriverio/MochaPract/test/pageobjects/SauceDemoProduct.page.ts:7:20)
+                    at sauceDemoProductPage.waitUntilLogoDisplayed (file:///C:/Webdriverio/MochaPract/test/pageobjects/SauceDemoProduct.page.ts:7:20)
+                    at sauceDemoProductPage.waitUntilLogoDisplayed (file:///C:/Webdriverio/MochaPract/test/pageobjects/SauceDemoProduct.page.ts:7:20)
+                    at sauceDemoProductPage.waitUntilLogoDisplayed (file:///C:/Webdriverio/MochaPract/test/pageobjects/SauceDemoProduct.page.ts:7:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

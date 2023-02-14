@@ -1,0 +1,42 @@
+{
+  "id": {
+    "sessionId": "ffbc3d2029031069a168d22149182d8f",
+    "error": {
+      "error": "no such element",
+      "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//iframe[@class='demo-frame lazyloaded'][1]\"}\n  (Session info: chrome=108.0.5359.126)",
+      "stacktrace": "Backtrace:\n\t(No symbol) [0x0114F243]\n\t(No symbol) [0x010D7FD1]\n\t(No symbol) [0x00FCD04D]\n\t(No symbol) [0x00FFC0B0]\n\t(No symbol) [0x00FFC22B]\n\t(No symbol) [0x0102E612]\n\t(No symbol) [0x010185D4]\n\t(No symbol) [0x0102C9EB]\n\t(No symbol) [0x01018386]\n\t(No symbol) [0x00FF163C]\n\t(No symbol) [0x00FF269D]\n\tGetHandleVerifier [0x013E9A22+2655074]\n\tGetHandleVerifier [0x013DCA24+2601828]\n\tGetHandleVerifier [0x011F8C0A+619850]\n\tGetHandleVerifier [0x011F7830+614768]\n\t(No symbol) [0x010E05FC]\n\t(No symbol) [0x010E5968]\n\t(No symbol) [0x010E5A55]\n\t(No symbol) [0x010F051B]\n\tBaseThreadInitThunk [0x759E6BD9+25]\n\tRtlGetFullPathName_UEx [0x77A18FD2+1218]\n\tRtlGetFullPathName_UEx [0x77A18F9D+1165]\n"
+    },
+    "selector": "//iframe[@class='demo-frame lazyloaded'][1]",
+    "parent": {
+      "sessionId": "ffbc3d2029031069a168d22149182d8f",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "108.0.5359.126",
+        "chrome": {
+          "chromedriverVersion": "108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})",
+          "userDataDir": "C:\\Users\\GASURYAW\\AppData\\Local\\Temp\\scoped_dir19604_22202882"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:60052"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+      }
+    },
+    "isReactElement": false
+  }
+}

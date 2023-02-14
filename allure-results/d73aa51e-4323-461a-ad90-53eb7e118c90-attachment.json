@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class='ui fluid search dropdown selection multiple upward active visible']"
+}

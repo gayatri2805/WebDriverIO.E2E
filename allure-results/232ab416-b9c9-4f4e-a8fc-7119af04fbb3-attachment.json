@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//input[@class=\"hasVisited\" and @type=\"checkbox\"][31]"
+}

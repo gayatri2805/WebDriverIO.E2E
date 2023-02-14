@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"countries\"]/tbody/tr[32]/td[2]/strong"
+}

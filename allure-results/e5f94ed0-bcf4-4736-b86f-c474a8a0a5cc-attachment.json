@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".app_logo\"}\n  (Session info: chrome=108.0.5359.125)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x00C8F243]\n\t(No symbol) [0x00C17FD1]\n\t(No symbol) [0x00B0D04D]\n\t(No symbol) [0x00B3C0B0]\n\t(No symbol) [0x00B3C22B]\n\t(No symbol) [0x00B6E612]\n\t(No symbol) [0x00B585D4]\n\t(No symbol) [0x00B6C9EB]\n\t(No symbol) [0x00B58386]\n\t(No symbol) [0x00B3163C]\n\t(No symbol) [0x00B3269D]\n\tGetHandleVerifier [0x00F29A22+2655074]\n\tGetHandleVerifier [0x00F1CA24+2601828]\n\tGetHandleVerifier [0x00D38C0A+619850]\n\tGetHandleVerifier [0x00D37830+614768]\n\t(No symbol) [0x00C205FC]\n\t(No symbol) [0x00C25968]\n\t(No symbol) [0x00C25A55]\n\t(No symbol) [0x00C3051B]\n\tBaseThreadInitThunk [0x75926BD9+25]\n\tRtlGetFullPathName_UEx [0x77118FD2+1218]\n\tRtlGetFullPathName_UEx [0x77118F9D+1165]\n"
+}

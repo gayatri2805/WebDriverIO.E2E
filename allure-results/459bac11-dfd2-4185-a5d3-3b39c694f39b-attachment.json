@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"./option[. = \"India\"]|./option[normalize-space(text()) = \"India\"]|./optgroup/option[. = \"India\"]|./optgroup/option[normalize-space(text()) = \"India\"]\"}\n  (Session info: chrome=109.0.5414.75)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x0032F243]\n\t(No symbol) [0x002B7FD1]\n\t(No symbol) [0x001AD04D]\n\t(No symbol) [0x001DC0B0]\n\t(No symbol) [0x001DC22B]\n\t(No symbol) [0x001D2CA1]\n\t(No symbol) [0x001F85D4]\n\t(No symbol) [0x001D2BFF]\n\t(No symbol) [0x001F8804]\n\t(No symbol) [0x0020C9EB]\n\t(No symbol) [0x001F8386]\n\t(No symbol) [0x001D163C]\n\t(No symbol) [0x001D269D]\n\tGetHandleVerifier [0x005C9A22+2655074]\n\tGetHandleVerifier [0x005BCA24+2601828]\n\tGetHandleVerifier [0x003D8C0A+619850]\n\tGetHandleVerifier [0x003D7830+614768]\n\t(No symbol) [0x002C05FC]\n\t(No symbol) [0x002C5968]\n\t(No symbol) [0x002C5A55]\n\t(No symbol) [0x002D051B]\n\tBaseThreadInitThunk [0x75DE6BD9+25]\n\tRtlGetFullPathName_UEx [0x773A8FD2+1218]\n\tRtlGetFullPathName_UEx [0x773A8F9D+1165]\n"
+}

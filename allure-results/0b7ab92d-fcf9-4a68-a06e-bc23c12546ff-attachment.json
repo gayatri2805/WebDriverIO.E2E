@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//input[@class='search'])[2]\"}\n  (Session info: chrome=109.0.5414.120)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x00B3F243]\n\t(No symbol) [0x00AC7FD1]\n\t(No symbol) [0x009BD04D]\n\t(No symbol) [0x009EC0B0]\n\t(No symbol) [0x009EC22B]\n\t(No symbol) [0x00A1E612]\n\t(No symbol) [0x00A085D4]\n\t(No symbol) [0x00A1C9EB]\n\t(No symbol) [0x00A08386]\n\t(No symbol) [0x009E163C]\n\t(No symbol) [0x009E269D]\n\tGetHandleVerifier [0x00DD9A22+2655074]\n\tGetHandleVerifier [0x00DCCA24+2601828]\n\tGetHandleVerifier [0x00BE8C0A+619850]\n\tGetHandleVerifier [0x00BE7830+614768]\n\t(No symbol) [0x00AD05FC]\n\t(No symbol) [0x00AD5968]\n\t(No symbol) [0x00AD5A55]\n\t(No symbol) [0x00AE051B]\n\tBaseThreadInitThunk [0x76426BD9+25]\n\tRtlGetFullPathName_UEx [0x77E78FD2+1218]\n\tRtlGetFullPathName_UEx [0x77E78F9D+1165]\n"
+}

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class=\"dp1674455400000   datepick-today\"]\"}\n  (Session info: chrome=109.0.5414.75)",
+  "stacktrace": "Backtrace:\n\t(No symbol) [0x0078F243]\n\t(No symbol) [0x00717FD1]\n\t(No symbol) [0x0060D04D]\n\t(No symbol) [0x0063C0B0]\n\t(No symbol) [0x0063C22B]\n\t(No symbol) [0x0066E612]\n\t(No symbol) [0x006585D4]\n\t(No symbol) [0x0066C9EB]\n\t(No symbol) [0x00658386]\n\t(No symbol) [0x0063163C]\n\t(No symbol) [0x0063269D]\n\tGetHandleVerifier [0x00A29A22+2655074]\n\tGetHandleVerifier [0x00A1CA24+2601828]\n\tGetHandleVerifier [0x00838C0A+619850]\n\tGetHandleVerifier [0x00837830+614768]\n\t(No symbol) [0x007205FC]\n\t(No symbol) [0x00725968]\n\t(No symbol) [0x00725A55]\n\t(No symbol) [0x0073051B]\n\tBaseThreadInitThunk [0x75DE6BD9+25]\n\tRtlGetFullPathName_UEx [0x773A8FD2+1218]\n\tRtlGetFullPathName_UEx [0x773A8F9D+1165]\n"
+}
